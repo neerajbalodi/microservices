@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-server" />
+        <module name="inventory-service" />
+        <module name="inventoryservice" />
+        <module name="order-service" />
+        <module name="product-service" />
+        <module name="productservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comprogrammingneeraj" target="1.8" />
+      <module name="discovery-server" target="1.8" />
+      <module name="inventory-service" target="1.8" />
+      <module name="inventoryservice" target="1.5" />
+      <module name="order-service" target="1.8" />
+      <module name="product-service" target="1.8" />
+      <module name="productservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
